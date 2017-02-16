@@ -89,7 +89,7 @@ class Stereography_window(QtGui.QMainWindow): #QWidget
         self.tab = pg.TableWidget(editable=True, sortable=False)
         self.tab.setData([[-14.13,0,14.13,0.],
                           [-15,0,15,0.],
-                          [30,17.5,30,17.5]])
+                          [53.5,41.41,53.5,41.41]])
         self.tab.setVerticalHeaderLabels(['pos', 'ang', 'fov'])
         self.tab.setHorizontalHeaderLabels(['cam1 x', 'cam1 y', 'cam2 x', 'cam2 y'])
         self.tab.cellChanged.connect(self.update_camera_parameters)
