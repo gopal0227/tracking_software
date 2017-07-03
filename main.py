@@ -15,7 +15,6 @@ import pyqtgraph.opengl as gl
 from pyqtgraph.Qt import QtCore, QtGui
 from scipy.interpolate import InterpolatedUnivariateSpline
 
-
 qt_app = QtGui.QApplication(sys.argv)
 
 class Stereography_window(QtGui.QMainWindow): #QWidget
